@@ -75,6 +75,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1008992953840-jccfs0c7iimkpcksc8s7gs16lpnbsl6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.herb4health",
+            "certificate_hash": "c7361567e239b45c72eebcb9720f754a7be844c4"
+          }
+        },
+        {
           "client_id": "1008992953840-mlvvl1ldp8tdngbenrgfgt0q4tg2n447.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -87,6 +95,102 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.asus.herb4health",
+            "certificate_hash": "bcf480f7072fb83516077ebb417ef2493b3860d7"
+          }
+        },
+        {
+          "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLWMOhsTC9xAEEUYzmcMs1m_QG69fMGs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008992953840:android:ce4e14b38bede275",
+        "android_client_info": {
+          "package_name": "com.example.sirawich.herb4test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008992953840-cubc1pdqn2jg3p2a2hodq2q3mkbqd7dl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sirawich.herb4test",
+            "certificate_hash": "bcf480f7072fb83516077ebb417ef2493b3860d7"
+          }
+        },
+        {
+          "client_id": "1008992953840-6lmtbh0vttjpp3ok86finn3660u9ln0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sirawich.herb4test",
+            "certificate_hash": "944b9e96685dc2ff89aae41f307af168c711423c"
+          }
+        },
+        {
+          "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLWMOhsTC9xAEEUYzmcMs1m_QG69fMGs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008992953840:android:4acffa1648bb98bd",
+        "android_client_info": {
+          "package_name": "com.example.admin.firebaselistview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008992953840-eua9f8dmjk1qq8okkuj5lc134ng56l3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.firebaselistview",
             "certificate_hash": "bcf480f7072fb83516077ebb417ef2493b3860d7"
           }
         },
