@@ -93,9 +93,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Knowledge");
+
+        //id Number Random
         int n =0;
         Random rand = new Random();
         n = rand.nextInt(4)+1;
+        //Fetch Data From Firebase
         demoRef.child("id"+n).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -130,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         addTilesToContainer();
     }
-
+    //Dialog show
     public void CallDialog(String x) {
         appBar = (Toolbar) findViewById(R.id.landingPageAppBar);
         new SweetAlertDialog(this, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
