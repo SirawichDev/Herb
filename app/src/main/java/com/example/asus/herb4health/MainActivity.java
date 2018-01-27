@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //id Number Random
         int n =0;
         Random rand = new Random();
-        n = rand.nextInt(4)+1;
+        n = rand.nextInt(10)+1;
         //Fetch Data From Firebase
         demoRef.child("id"+n).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
