@@ -81,10 +81,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             "รวบรวมผลิตภัณฑ์ต่างๆ ที่ผลิตจากสมุนไพรซึ่งเป็นที่นิยม","รวมคำถามที่พบบ่อยและอีเมล์ืที่สามารถติดต่อเราได้"
     };
 
-    DrawerLayout mDrawerLayout;
-    ActionBarDrawerToggle mDrawerToggle;
-    private HerbFragment fragment;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        setUpNavigationDrawer();
+
 
         detector = new GestureDetectorCompat(this, this);
         int displayHeight = getWindowManager().getDefaultDisplay().getHeight();
@@ -240,11 +236,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
                         //กดรูปภาพแล้ว intent ไปอีกหน้า ภาพ 1
 
-                        else {
-                            isFragmentOpened = true;
-                            fragment = (HerbFragment) Fragment.instantiate(this, HerbFragment.class.getName());
-                            addFragmentToScreen(fragment);
-                        }
+
                         break;
 
                     case 1:
@@ -586,34 +578,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    public void setUpNavigationDrawer() {
 
-        navigationView = (NavigationView) findViewById(R.id.fragmentDrawer);
-
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.mainDrawerLayout);
-        mDrawerToggle = new ActionBarDrawerToggle(this,
-                mDrawerLayout,
-                appBar,
-                R.string.open,
-                R.string.close) {
-
-            @Override
-            public void onDrawerClosed(View drawerView) {
-                super.onDrawerClosed(drawerView);
-
-                toFantasticScroll = true;
-            }
-
-            @Override
-            public void onDrawerOpened(View drawerView) {
-                super.onDrawerOpened(drawerView);
-                toFantasticScroll = false;
-            }
-        };
-
-        mDrawerLayout.addDrawerListener(mDrawerToggle);
-        mDrawerToggle.syncState();
-    }
 
     boolean isFragmentOpened = false;
 
