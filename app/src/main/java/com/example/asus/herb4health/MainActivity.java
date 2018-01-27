@@ -36,6 +36,8 @@ import com.example.asus.herb4health.util.HelperView;
 import com.google.firebase.database.ValueEventListener;
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
 
+import java.util.Random;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, GestureDetector.OnGestureListener {
 
@@ -91,8 +93,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Knowledge");
-        
-        demoRef.child("id"+"1").addListenerForSingleValueEvent(new ValueEventListener() {
+        int n =0;
+        Random rand = new Random();
+        n = rand.nextInt(4)+1;
+        demoRef.child("id"+n).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
