@@ -27,17 +27,25 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import com.example.asus.herb4health.util.HelperView;
+import com.google.firebase.database.ValueEventListener;
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, GestureDetector.OnGestureListener {
 
+    DatabaseReference rootRef,demoRef;
     Context mContext = MainActivity.this;
 
     private LinearLayout tilesContainer;
     private ScrollView mainScrollView;
     //public MediaPlayer mp3;
+    public String value;
 
 
     private int[] colors = new int[6];
@@ -80,12 +88,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        appBar = (Toolbar) findViewById(R.id.landingPageAppBar);
-        new SweetAlertDialog(this, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
-                .setTitleText("เกร็ดน่ารู้")
-                .setContentText("Here's a custom image.")
-                .setCustomImage(R.drawable.about_icon_email)
-                .show();
+
+        rootRef = FirebaseDatabase.getInstance().getReference();
+        demoRef = rootRef.child("Knowledge");
+
+        demoRef.child("เกร็ดความรู้").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                value = dataSnapshot.getValue(String.class);
+                CallDialog(value);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });
+
 
 
         setUpNavigationDrawer();
@@ -106,6 +125,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         addTilesToContainer();
+    }
+
+    public void CallDialog(String x) {
+        appBar = (Toolbar) findViewById(R.id.landingPageAppBar);
+        new SweetAlertDialog(this, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
+                .setTitleText("เกร็ดน่ารู้")
+                .setContentText(x)
+                .setCustomImage(R.drawable.about_icon_email)
+                .show();
     }
 
     @Override
