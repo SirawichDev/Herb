@@ -95,22 +95,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         demoRef = rootRef.child("Knowledge");
 
         //id Number Random
-        int n =0;
+        int n,y =0;
         Random rand = new Random();
-        n = rand.nextInt(15)+n;
-        //Fetch Data From Firebase
-        demoRef.child("id"+n).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+        y = rand.nextInt(2);
+        n = rand.nextInt(15)+y;
 
-                value = dataSnapshot.getValue(String.class);
-                CallDialog(value);
-            }
+            //Fetch Data From Firebase
+            demoRef.child("id" + n).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-            }
-        });
+                    value = dataSnapshot.getValue(String.class);
+                    CallDialog(value);
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+                }
+            });
 
 
 
