@@ -38,11 +38,5 @@
             android:layout_height="match_parent"/>
     </RelativeLayout>
 
-    <android.support.design.widget.NavigationView android:id="@+id/fragmentDrawer"
-        android:layout_width="280dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:itemIconTint="#212121"
-        app:itemTextColor="#212121"
-        app:menu="@menu/navigation_drawer_menu"/>
+
 </android.support.v4.widget.DrawerLayout>
