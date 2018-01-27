@@ -33,6 +33,7 @@ public class ShowlistFirebase extends AppCompatActivity {
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,mname);
         mListview.setAdapter(arrayAdapter) ;
         mRef.addChildEventListener(new ChildEventListener() {
+            
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 String value =dataSnapshot.getValue(String.class);
