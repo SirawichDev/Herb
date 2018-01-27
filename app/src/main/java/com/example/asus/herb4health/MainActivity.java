@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Knowledge");
-
-        demoRef.child("เกร็ดความรู้").addListenerForSingleValueEvent(new ValueEventListener() {
+        
+        demoRef.child("id"+"1").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
