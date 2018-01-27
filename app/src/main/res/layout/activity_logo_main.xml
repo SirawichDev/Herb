@@ -7,7 +7,7 @@
     android:layout_gravity="center_horizontal"
     android:background="#002419"
     android:orientation="vertical"
-    tools:context="com.example.asus.herb4health.LogoMain">
+    tools:context="com.nsc.apk.herb4health.LogoMain">
 
     <ScrollView
         android:layout_width="match_parent"

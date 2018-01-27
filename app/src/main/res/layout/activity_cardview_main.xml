@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="#004c3f"
-    tools:context="com.example.asus.herb4health.Cardview_main">
+    tools:context="com.nsc.apk.herb4health.Cardview_main">
 
 
     <android.support.design.widget.AppBarLayout

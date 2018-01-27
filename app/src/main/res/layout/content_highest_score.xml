@@ -9,7 +9,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.asus.herb4health.highest_score"
+    tools:context="com.nsc.apk.herb4health.highest_score"
     tools:showIn="@layout/activity_highest_score">
     <LinearLayout
         android:orientation="vertical"

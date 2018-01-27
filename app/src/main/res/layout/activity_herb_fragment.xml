@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:clickable="true"
-    tools:context="com.example.asus.herb4health.FetchImageFirebase">
+    tools:context="com.nsc.apk.herb4health.FetchImageFirebase">
 
     <TextView android:id="@+id/tv_sample_text"
         android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFEBE9"
-    tools:context="com.example.asus.herb4health.ShowlistFirebase">
+    tools:context="com.nsc.apk.herb4health.ShowlistFirebase">
 
 <ListView
     android:id="@+id/Listviews"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#333639"
-    tools:context="com.example.asus.herb4health.FlowProductMain">
+    tools:context="com.nsc.apk.herb4health.FlowProductMain">
 
     <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asus.herb4health.ProductDetail">
+    tools:context="com.nsc.apk.herb4health.ProductDetail">
     <com.github.florent37.diagonallayout.DiagonalLayout
         android:id="@+id/diagonalLayout"
         android:layout_width="match_parent"

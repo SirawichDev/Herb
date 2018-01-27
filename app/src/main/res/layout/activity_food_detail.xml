@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#38786a"
-    tools:context="com.example.asus.herb4health.FoodDetail">
+    tools:context="com.nsc.apk.herb4health.FoodDetail">
 
     <com.github.florent37.diagonallayout.DiagonalLayout
         android:id="@+id/diagonalLayout"
