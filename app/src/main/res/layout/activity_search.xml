@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="#EFEBE9"
-    tools:context="com.example.asus.herb4health.Search">
+    tools:context="com.nsc.apk.herb4health.Search">
 
     <LinearLayout
         android:layout_width="fill_parent"

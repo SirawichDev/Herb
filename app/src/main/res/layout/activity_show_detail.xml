@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#38786a"
     android:orientation="vertical"
-    tools:context="com.example.asus.herb4health.ShowDetail">
+    tools:context="com.nsc.apk.herb4health.ShowDetail">
 
     <ScrollView
         android:layout_width="match_parent"

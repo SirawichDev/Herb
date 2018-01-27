@@ -70,7 +70,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1008992953840:android:f0cdc707796c8bf7",
         "android_client_info": {
-          "package_name": "com.example.asus.herb4health"
+          "package_name": "com.nsc.apk.herb4health"
         }
       },
       "oauth_client": [
@@ -78,7 +78,7 @@
           "client_id": "1008992953840-jccfs0c7iimkpcksc8s7gs16lpnbsl6c.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.asus.herb4health",
+            "package_name": "com.nsc.apk.herb4health",
             "certificate_hash": "c7361567e239b45c72eebcb9720f754a7be844c4"
           }
         },
@@ -86,7 +86,7 @@
           "client_id": "1008992953840-mlvvl1ldp8tdngbenrgfgt0q4tg2n447.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.asus.herb4health",
+            "package_name": "com.nsc.apk.herb4health",
             "certificate_hash": "944b9e96685dc2ff89aae41f307af168c711423c"
           }
         },
@@ -94,7 +94,7 @@
           "client_id": "1008992953840-b8e3g9v4c0grc5d4k66l2f4fd9dt80d9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.asus.herb4health",
+            "package_name": "com.nsc.apk.herb4health",
             "certificate_hash": "bcf480f7072fb83516077ebb417ef2493b3860d7"
           }
         },

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.asus.herb4health">
+    package="com.nsc.apk.herb4health">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,7 @@
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".WelcomeActivity">
+        <activity android:name="com.nsc.apk.herb4health.WelcomeActivity">
             <action
                 android:name="android.intent.action.MAIN"
                 android:label="@string/app_name"
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.nsc.apk.herb4health.MainActivity">
         </activity>
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -33,24 +33,24 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".bodyhumenActivity" />
+        <activity android:name="com.nsc.apk.herb4health.bodyhumenActivity" />
         <activity
-            android:name=".highest_score"
+            android:name="com.nsc.apk.herb4health.highest_score"
             android:label="@string/title_activity_highest_score"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".quiz" />
-        <activity android:name=".Newlist" />
-        <activity android:name=".ShowDetail" />
-        <activity android:name=".ShowlistFirebase" />
-        <activity android:name=".FetchImageFirebase" />
-        <activity android:name=".FireApp" />
-        <activity android:name=".LogoMain" />
-        <activity android:name=".Cardview_main" />
-        <activity android:name=".CoverFlowMain" />
-        <activity android:name=".FoodDetail" />
-        <activity android:name=".FlowProductMain" />
-        <activity android:name=".ProductDetail" />
-        <activity android:name=".ViewerActivity" />
+        <activity android:name="com.nsc.apk.herb4health.quiz" />
+        <activity android:name="com.nsc.apk.herb4health.Newlist" />
+        <activity android:name="com.nsc.apk.herb4health.ShowDetail" />
+        <activity android:name="com.nsc.apk.herb4health.ShowlistFirebase" />
+        <activity android:name="com.nsc.apk.herb4health.FetchImageFirebase" />
+        <activity android:name="com.nsc.apk.herb4health.FireApp" />
+        <activity android:name="com.nsc.apk.herb4health.LogoMain" />
+        <activity android:name="com.nsc.apk.herb4health.Cardview_main" />
+        <activity android:name="com.nsc.apk.herb4health.CoverFlowMain" />
+        <activity android:name="com.nsc.apk.herb4health.FoodDetail" />
+        <activity android:name="com.nsc.apk.herb4health.FlowProductMain" />
+        <activity android:name="com.nsc.apk.herb4health.ProductDetail" />
+        <activity android:name="com.nsc.apk.herb4health.ViewerActivity" />
     </application>
 
 </manifest>
