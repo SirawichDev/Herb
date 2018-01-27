@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    android:orientation="vertical">
+
+    //ส่วนที่เพิ่มเติมที่1
+    <android.support.v7.widget.SearchView
+        android:id="@+id/mSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:defaultQueryHint="Search.."
+
+        ></android.support.v7.widget.SearchView>
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#004c3f"
+        android:id="@+id/myRecycler1"
+        class="android.support.v7.widget.RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mSearch" />
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004c3f</color>
+    <color name="colorPrimaryDark">#002419</color>
+    <color name ="colorLight">#38786a</color>
+    <color name ="colorLight2">#48a999</color>
+    <color name ="Yellow">#ffff00</color>
+
+
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="drimgray">#696969</color>
+    <color name="numtran">#996600</color>
+    <color name="numtran1">#996633</color>
+    <color name="numtran2">#FFFFCC</color>
+    <color name="Burlywood">#DEB887</color>
+    <color name="Burlywood2">#fff5cd</color>
+    <color name="Brown">#795548</color>
+    <color name="Brown1">#EFEBE9</color>
+    <color name="Brown2">#D7CCC8</color>
+    <color name="Brown3">#BCAAA4</color>
+    <color name="Brown4">#A1887F</color>
+    <color name="Brown5">#8D6E63</color>
+    <color name="Brown6">#795548</color>
+    <color name="Brown7">#6D4C41</color>
+    <color name="Brown8">#5D4037</color>
+    <color name="Brown9">#4E342E</color>
+    <color name="Brown10">#3E2723</color>
+    <color name="Orange">#ff5c00</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="about_separator_color">#e1e1e1</color>
+    <color name="about_facebook_color">#3b5998</color>
+    <color name="primary">#795548</color>
+    <color name="primarydark">#5D4037</color>
+    <color name="darkgary">#6c6c6c</color>
+    <color name="black56">#8e000000</color>
+    <color name="black12">#1e000000</color>
+    <color name="primaryDark2">#689F38</color>
+    <!-- Color New Design -->
+    <color name ="Green50">#E0F2F1</color>
+    <color name ="Green100">#B2DFDB</color>
+    <color name ="Green200">#80CBC4</color>
+    <color name ="Green300">#4DB6AC</color>
+    <color name ="Green400">#26A69A</color>
+    <color name ="Green500">#009688</color>
+    <color name ="Green600">#00897B</color>
+    <color name ="Green700">#00796B</color>
+    <color name ="Green800">#00695C</color>
+    <color name ="Greencut100">#A7FFEB</color>
+    <color name ="Greencut200">#64FFDA</color>
+    <color name ="Greencut300">#1DE9B6</color>
+    <color name ="Greencut400">#00BFA5</color>
+
+
+
+
+
+
+
+
+</resources>

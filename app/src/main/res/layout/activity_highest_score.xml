@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002419"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.asus.herb4health.highest_score">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="107dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="#004c3f"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text="คะแนนของคุณ:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textHighScore"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="#38786a"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text="คะแนะสูงสุด:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:background="@color/black"
+            android:onClick="onClick"
+            android:text="เริ่มทำใหม่"
+            android:textColor="#FFFFFF" />
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:background="@color/black"
+            android:onClick="onClick2"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

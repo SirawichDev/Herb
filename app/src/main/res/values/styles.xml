@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#48a999</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <string name="placeholder_lorem_ipsum_extralong">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nam a interdum nulla. Integer tincidunt vehicula orci, id lobortis enim elementum vitae.
+        Sed et mi varius, fermentum risus id, laoreet elit. Praesent vitae auctor enim.
+        In sed molestie diam, ut congue arcu. Mauris et massa ut nibh pretium faucibus ac ut arcu.
+        Donec condimentum magna eu odio facilisis, vitae mollis urna cursus.
+        Ut vitae dapibus dolor. Quisque feugiat sagittis lobortis.
+        Proin purus augue, pharetra in lorem et, tempus luctus augue. Aliquam erat volutpat.
+        Fusce eu hendrerit purus. Aenean a felis lectus. Fusce mattis vehicula velit ut porta.
+        Curabitur non rutrum tellus. Quisque sodales egestas pellentesque.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nam a interdum nulla. Integer tincidunt vehicula orci, id lobortis enim elementum vitae.
+        Sed et mi varius, fermentum risus id, laoreet elit. Praesent vitae auctor enim.
+    </string>
+
+</resources>

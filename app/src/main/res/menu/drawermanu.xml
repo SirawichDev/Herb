@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/part1" android:title="ผมเสีย:เลือกใช้อัญชัญบำรุง"  android:icon="@drawable/ic_hair"/>
+    <item android:id="@+id/part2" android:title="บำรุงสมอง:เลือกใช้บัวบก" android:icon="@drawable/ic_child_head"/>
+    <item android:id="@+id/part3" android:title="บำรุงสายตา:เลือกใช้แป๊ะก๊วย" android:icon="@drawable/ic_big_eye"/>
+    <item android:id="@+id/part4" android:title="ปวดหู" android:icon="@drawable/ic_big_ear"/>
+    <item android:id="@+id/part5" android:title="ปวดจมูก" android:icon="@drawable/ic_big_nose_1"/>
+    <item android:id="@+id/part6" android:title="อาการร้อนใน:ใช้ชาหรือดาวเรือง" android:icon="@drawable/ic_mouth_outline_showing_off_tongue"/>
+    <item android:id="@+id/part7" android:title="ฟันพุ:เลือกใช้ตำลึงหรือกานพลู" android:icon="@drawable/ic_tooth_outline_1"/>
+
+
+</menu>

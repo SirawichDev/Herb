@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.52inc:52Kit-core-0.5.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/52Kit-core-0.5.1.aar/7f91fc8e459ea4e56424dcb171418697/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/52Kit-core-0.5.1.aar/7f91fc8e459ea4e56424dcb171418697/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.52inc/52Kit-core/0.5.1/d5e9962b979c07d40ed513fa42957a4e36c5ce5c/52Kit-core-0.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

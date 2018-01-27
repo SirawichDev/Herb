@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002419"
+    tools:context="com.example.asus.herb4health.CoverFlowMain">
+
+
+
+    <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+
+
+        android:id="@+id/coverFlow"
+        app.spacing="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:coverHeight="200dp"
+        app:coverWidth="150dp"
+        app:maxScaleFactor="1.5"
+        app:reflectionGap="0px"
+        app:rotationThreshold="0.5"
+        app:scalingThreshold="0.5" />
+
+    <TextSwitcher
+        android:id="@+id/mtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="36dp"></TextSwitcher>
+
+</RelativeLayout>

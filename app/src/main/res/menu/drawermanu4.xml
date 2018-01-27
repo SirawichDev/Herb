@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/part13" android:title="ลำไส้อักเสบ:เลือกใช้ชะเอม" android:icon="@drawable/ic_stomach"/>
+    <item android:id="@+id/part14" android:title="บำรุงตับ:เลือกใช้ลูกใต้ใบ" android:icon="@drawable/ic_liver"/>
+
+</menu>

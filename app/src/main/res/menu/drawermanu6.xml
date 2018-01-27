@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/part17" android:title="ปวดข้อมือ:เลือกใช้กระเทียม" android:icon="@drawable/ic_hand"/>
+    <item android:id="@+id/part18" android:title="ปวดข้อนิ้ว:เลือกใช้กระเทียม" android:icon="@drawable/ic_finger"/>
+
+
+</menu>

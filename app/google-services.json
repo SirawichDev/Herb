@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "1008992953840",
+    "firebase_url": "https://herbs-e7bc7.firebaseio.com",
+    "project_id": "herbs-e7bc7",
+    "storage_bucket": "herbs-e7bc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008992953840:android:8f188383f849bd0c",
+        "android_client_info": {
+          "package_name": "net.simplifiedcoding.firebaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008992953840-fuqfjs8q5pibm4abts37hd0h1hascvnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedcoding.firebaseexample",
+            "certificate_hash": "bcf480f7072fb83516077ebb417ef2493b3860d7"
+          }
+        },
+        {
+          "client_id": "1008992953840-a32dj2i6eb9hup45hc6sfq1an7db5284.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedcoding.firebaseexample",
+            "certificate_hash": "c7361567e239b45c72eebcb9720f754a7be844c4"
+          }
+        },
+        {
+          "client_id": "1008992953840-eena25mrbjch2iv8ofvutglt2og5k7lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedcoding.firebaseexample",
+            "certificate_hash": "944b9e96685dc2ff89aae41f307af168c711423c"
+          }
+        },
+        {
+          "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLWMOhsTC9xAEEUYzmcMs1m_QG69fMGs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008992953840:android:f0cdc707796c8bf7",
+        "android_client_info": {
+          "package_name": "com.example.asus.herb4health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008992953840-mlvvl1ldp8tdngbenrgfgt0q4tg2n447.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.herb4health",
+            "certificate_hash": "944b9e96685dc2ff89aae41f307af168c711423c"
+          }
+        },
+        {
+          "client_id": "1008992953840-b8e3g9v4c0grc5d4k66l2f4fd9dt80d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.herb4health",
+            "certificate_hash": "bcf480f7072fb83516077ebb417ef2493b3860d7"
+          }
+        },
+        {
+          "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLWMOhsTC9xAEEUYzmcMs1m_QG69fMGs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008992953840-s8ivnpad422qvqa06dlme2c964p4c12n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

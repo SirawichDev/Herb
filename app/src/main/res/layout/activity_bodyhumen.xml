@@ -1,0 +1,307 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.asus.herb4health.bodyhumenActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <android.support.v4.widget.DrawerLayout
+
+
+        android:id="@+id/drawer1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bodyman1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawermanu">
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <!-- จบส่วนบน  -->
+
+
+    <android.support.v4.widget.DrawerLayout
+
+
+        android:background="@drawable/bodyman2"
+        android:layout_width="match_parent"
+        android:id="@+id/drawer2"
+        android:layout_height="100dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawermanu2">
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <!-- จบส่วนบนที่ 2 -->
+    <android.support.v4.widget.DrawerLayout
+
+
+        android:background="@drawable/bodyman3"
+        android:layout_width="match_parent"
+        android:id="@+id/drawer3"
+        android:layout_height="100dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawermanu3">
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <!-- จบส่วนบนที่ 3 -->
+    <android.support.v4.widget.DrawerLayout
+
+
+        android:background="@drawable/bodyman4"
+        android:layout_width="match_parent"
+        android:id="@+id/drawer4"
+        android:layout_height="100dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawermanu4">
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <!-- จบส่วนบนที่ 4 -->
+    <android.support.v4.widget.DrawerLayout
+
+
+        android:background="@drawable/bodyman5"
+        android:layout_width="match_parent"
+        android:id="@+id/drawer5"
+        android:layout_height="100dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawermanu6">
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <!-- จบส่วนบนที่ 5 -->
+        <android.support.v4.widget.DrawerLayout
+
+
+            android:background="@drawable/bodyman6"
+            android:layout_width="match_parent"
+            android:id="@+id/drawer6"
+            android:layout_height="100dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:menu="@menu/drawermanu6">
+
+            </android.support.design.widget.NavigationView>
+
+
+        </android.support.v4.widget.DrawerLayout>
+        <!-- จบส่วนบนที่ 6 -->
+        <android.support.v4.widget.DrawerLayout
+
+
+            android:background="@drawable/bodyman7"
+            android:layout_width="match_parent"
+            android:id="@+id/drawer7"
+            android:layout_height="100dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:menu="@menu/drawermanu7">
+
+            </android.support.design.widget.NavigationView>
+
+
+        </android.support.v4.widget.DrawerLayout>
+        <!-- จบส่วนบนที่ 7 -->
+        <android.support.v4.widget.DrawerLayout
+
+
+            android:background="@drawable/bodyman8"
+            android:layout_width="match_parent"
+            android:id="@+id/drawer8"
+            android:layout_height="100dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:menu="@menu/drawermanu8">
+
+            </android.support.design.widget.NavigationView>
+
+
+        </android.support.v4.widget.DrawerLayout>
+        <!-- จบส่วนบนที่ 8 -->
+        <android.support.v4.widget.DrawerLayout
+
+
+            android:background="@drawable/bodyman9"
+            android:layout_width="match_parent"
+            android:id="@+id/drawer9"
+            android:layout_height="100dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:menu="@menu/drawermanu9">
+
+            </android.support.design.widget.NavigationView>
+
+
+        </android.support.v4.widget.DrawerLayout>
+        <!-- จบส่วนบนที่ 9 -->
+        <android.support.v4.widget.DrawerLayout
+
+
+            android:background="@drawable/bodyman10"
+            android:layout_width="match_parent"
+            android:id="@+id/drawer10"
+            android:layout_height="100dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:menu="@menu/drawermanu10">
+
+            </android.support.design.widget.NavigationView>
+
+
+        </android.support.v4.widget.DrawerLayout>
+        <!-- จบส่วนบนที่ 10 -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#795548"
+            android:textColor="#FFFFFF"
+            android:text="ศึกษาเพิ่มเติม"
+            android:onClick="GoFirebase2"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
