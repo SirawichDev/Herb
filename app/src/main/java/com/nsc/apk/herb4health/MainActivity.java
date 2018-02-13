@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         new SweetAlertDialog(this, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
                 .setTitleText("เกร็ดน่ารู้")
                 .setContentText(x)
-                .setCustomImage(R.drawable.about_icon_email)
+                .setCustomImage(R.drawable.knowledge_icon)
                 .show();
     }
 

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmbeddedUtils1/EmbeddedUtils1.iml" filepath="$PROJECT_DIR$/EmbeddedUtils1/EmbeddedUtils1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NSC_Herb4Health2.iml" filepath="$PROJECT_DIR$/NSC_Herb4Health2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Herb.iml" filepath="$PROJECT_DIR$/Herb.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="artifacts:EmbeddedUtils1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmbeddedUtils.aar/3398118de1d1c8a1626f906cc84d26c7/jars/libs/partiiembedded-android-5prealpha-nolib.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmbeddedUtils.aar/3398118de1d1c8a1626f906cc84d26c7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmbeddedUtils.aar/3398118de1d1c8a1626f906cc84d26c7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmbeddedUtils.aar/57d99371ec28dc6aa56f5fb910859973/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmbeddedUtils.aar/57d99371ec28dc6aa56f5fb910859973/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmbeddedUtils.aar/57d99371ec28dc6aa56f5fb910859973/jars/libs/partiiembedded-android-5prealpha-nolib.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

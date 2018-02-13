@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="com.jakewharton.timber:timber-4.6.1-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/timber-4.6.1-SNAPSHOT.aar/ecd6e40e0cb0fbfdb9088acc0c032f95/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/timber-4.6.1-SNAPSHOT.aar/ecd6e40e0cb0fbfdb9088acc0c032f95/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/timber-4.6.1-SNAPSHOT.aar/c3116537467eb96f43500a4ea5f2ae38/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/timber-4.6.1-SNAPSHOT.aar/c3116537467eb96f43500a4ea5f2ae38/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.6.1-SNAPSHOT/7184ad2260dae66fb7194743fdd12a33679726e6/timber-4.6.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.6.1-SNAPSHOT/ee2c548dc5ad26826bea8b047f3981e2210ea418/timber-4.6.1-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
